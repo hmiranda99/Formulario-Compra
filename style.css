@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  --blue-dark: #032548;
+  --blue-medium: #054878;
+  --blue-regular: #065990;
+  --blue-ligth: #f3f6fd;
+
+  --red: #c60e08;
+  --orange: #ed410a;
+  --green: #00881f;
+
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-image: url(./images/bg-gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+section.resposta {
+  background-color: white;
+  width: 30rem;
+  height: 31rem;
+  border-radius: 0.5rem;
+  padding: 2.5rem 1.5rem;
+}
+
+section {
+  background-color: white;
+  width: 30rem;
+  padding: 2.5rem 1.5rem;
+}
+
+.section-form {
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.section-img {
+  height: 39.3rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+input,
+select {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem;
+  background-color: var(--blue-ligth);
+  outline: none;
+}
+
+label {
+  color: var(--blue-dark);
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  display: block;
+}
+
+.linha {
+  margin-top: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.button {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(
+    90deg,
+    var(--blue-dark),
+    var(--blue-medium),
+    var(--blue-regular)
+  );
+  color: white;
+  font-weight: 500;
+}
+
+.button:hover {
+  filter: brightness(1.2); /*aplica um brilho*/
+}
+
+.coluna {
+  display: inline-block;
+  width: 49.5%;
+}
+
+.coluna-resposta {
+  display: inline-flex;
+  width: 49.5%;
+  justify-content: flex-end;
+}
+
+.line-input {
+  height: 0.1rem;
+  background-image: linear-gradient(
+    90deg,
+    var(--blue-dark),
+    var(--blue-medium),
+    var(--blue-regular)
+  );
+}
+
+.estilo-resposta {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.color1 {
+  color: var(--blue-dark);
+}
+
+.color2 {
+  color: var(--blue-regular);
+}
+
+.color3 {
+  color: var(--red);
+}
+
+.color4 {
+  color: var(--green);
+}
+
+.img-resposta {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.img-inicial {
+  height: 100%;
+  width: 100%;
+}
